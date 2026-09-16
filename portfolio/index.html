@@ -58,7 +58,7 @@
   /* ---- 卡片网格 ---- */
   .grid{
     display:grid;gap:26px;padding-bottom:80px;
-    grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));
   }
   .card{
     background:var(--surface);border:1px solid var(--line);border-radius:12px;
